@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2B3C4D1234567890ABCDEF /* AquaLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4C1234567890ABCDEF /* AquaLogApp.swift */; };
+		1A2B3C4F1234567890ABCDEF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4E1234567890ABCDEF /* HomeView.swift */; };
+		1A2B3C511234567890ABCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C501234567890ABCDEF /* Assets.xcassets */; };
+		1A2B3C541234567890ABCDEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C531234567890ABCDEF /* Preview Assets.xcassets */; };
+		1A2B3C601234567890ABCDEF /* AquaLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C5E1234567890ABCDEF /* AquaLog.xcdatamodeld */; };
+		1A2B3C621234567890ABCDEF /* WaterEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C611234567890ABCDEF /* WaterEntry+CoreDataClass.swift */; };
+		1A2B3C641234567890ABCDEF /* WaterEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C631234567890ABCDEF /* WaterEntry+CoreDataProperties.swift */; };
+		1A2B3C661234567890ABCDEF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C651234567890ABCDEF /* CoreDataManager.swift */; };
+		1A2B3C681234567890ABCDEF /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C671234567890ABCDEF /* HistoryView.swift */; };
+		1A2B3C6A1234567890ABCDEF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C691234567890ABCDEF /* SettingsView.swift */; };
+		1A2B3C6C1234567890ABCDEF /* WaterBottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C6B1234567890ABCDEF /* WaterBottleView.swift */; };
+		1A2B3C6E1234567890ABCDEF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C6D1234567890ABCDEF /* HomeViewModel.swift */; };
+		1A2B3C701234567890ABCDEF /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C6F1234567890ABCDEF /* HistoryViewModel.swift */; };
+		1A2B3C721234567890ABCDEF /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C711234567890ABCDEF /* SettingsViewModel.swift */; };
+		1A2B3C741234567890ABCDEF /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C731234567890ABCDEF /* HealthKitManager.swift */; };
+		1A2B3C761234567890ABCDEF /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C751234567890ABCDEF /* UserDefaultsManager.swift */; };
+		CEAC482F2ECA5A4A00870CE7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAC482E2ECA5A4A00870CE7 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2B3C491234567890ABCDEF /* AquaLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B3C4C1234567890ABCDEF /* AquaLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaLogApp.swift; sourceTree = "<group>"; };
+		1A2B3C4E1234567890ABCDEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A2B3C501234567890ABCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2B3C531234567890ABCDEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A2B3C551234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2B3C5F1234567890ABCDEF /* AquaLog.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AquaLog.xcdatamodeld; sourceTree = "<group>"; };
+		1A2B3C611234567890ABCDEF /* WaterEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1A2B3C631234567890ABCDEF /* WaterEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1A2B3C651234567890ABCDEF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1A2B3C671234567890ABCDEF /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1A2B3C691234567890ABCDEF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1A2B3C6B1234567890ABCDEF /* WaterBottleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBottleView.swift; sourceTree = "<group>"; };
+		1A2B3C6D1234567890ABCDEF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1A2B3C6F1234567890ABCDEF /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		1A2B3C711234567890ABCDEF /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		1A2B3C731234567890ABCDEF /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		1A2B3C751234567890ABCDEF /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		CEAC482C2ECA5A4900870CE7 /* AquaLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AquaLog.entitlements; sourceTree = "<group>"; };
+		CEAC482E2ECA5A4A00870CE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2B3C461234567890ABCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAC482F2ECA5A4A00870CE7 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2B3C401234567890ABCDEF = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C4B1234567890ABCDEF /* AquaLog */,
+				1A2B3C4A1234567890ABCDEF /* Products */,
+				CEAC482D2ECA5A4A00870CE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A2B3C4A1234567890ABCDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C491234567890ABCDEF /* AquaLog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A2B3C4B1234567890ABCDEF /* AquaLog */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC482C2ECA5A4900870CE7 /* AquaLog.entitlements */,
+				1A2B3C4C1234567890ABCDEF /* AquaLogApp.swift */,
+				1A2B3C771234567890ABCDEF /* Models */,
+				1A2B3C781234567890ABCDEF /* Views */,
+				1A2B3C791234567890ABCDEF /* ViewModels */,
+				1A2B3C7A1234567890ABCDEF /* Services */,
+				1A2B3C501234567890ABCDEF /* Assets.xcassets */,
+				1A2B3C551234567890ABCDEF /* Info.plist */,
+				1A2B3C521234567890ABCDEF /* Preview Content */,
+				1A2B3C5E1234567890ABCDEF /* AquaLog.xcdatamodeld */,
+			);
+			path = AquaLog;
+			sourceTree = "<group>";
+		};
+		1A2B3C521234567890ABCDEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C531234567890ABCDEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A2B3C771234567890ABCDEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C611234567890ABCDEF /* WaterEntry+CoreDataClass.swift */,
+				1A2B3C631234567890ABCDEF /* WaterEntry+CoreDataProperties.swift */,
+				1A2B3C651234567890ABCDEF /* CoreDataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A2B3C781234567890ABCDEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C4E1234567890ABCDEF /* HomeView.swift */,
+				1A2B3C671234567890ABCDEF /* HistoryView.swift */,
+				1A2B3C691234567890ABCDEF /* SettingsView.swift */,
+				1A2B3C7B1234567890ABCDEF /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A2B3C791234567890ABCDEF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C6D1234567890ABCDEF /* HomeViewModel.swift */,
+				1A2B3C6F1234567890ABCDEF /* HistoryViewModel.swift */,
+				1A2B3C711234567890ABCDEF /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1A2B3C7A1234567890ABCDEF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C731234567890ABCDEF /* HealthKitManager.swift */,
+				1A2B3C751234567890ABCDEF /* UserDefaultsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1A2B3C7B1234567890ABCDEF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C6B1234567890ABCDEF /* WaterBottleView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CEAC482D2ECA5A4A00870CE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC482E2ECA5A4A00870CE7 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2B3C481234567890ABCDEF /* AquaLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2B3C581234567890ABCDEF /* Build configuration list for PBXNativeTarget "AquaLog" */;
+			buildPhases = (
+				1A2B3C451234567890ABCDEF /* Sources */,
+				1A2B3C461234567890ABCDEF /* Frameworks */,
+				1A2B3C471234567890ABCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquaLog;
+			productName = AquaLog;
+			productReference = 1A2B3C491234567890ABCDEF /* AquaLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2B3C411234567890ABCDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1A2B3C481234567890ABCDEF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 1A2B3C441234567890ABCDEF /* Build configuration list for PBXProject "AquaLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2B3C401234567890ABCDEF;
+			productRefGroup = 1A2B3C4A1234567890ABCDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2B3C481234567890ABCDEF /* AquaLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2B3C471234567890ABCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B3C541234567890ABCDEF /* Preview Assets.xcassets in Resources */,
+				1A2B3C511234567890ABCDEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2B3C451234567890ABCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B3C601234567890ABCDEF /* AquaLog.xcdatamodeld in Sources */,
+				1A2B3C6C1234567890ABCDEF /* WaterBottleView.swift in Sources */,
+				1A2B3C741234567890ABCDEF /* HealthKitManager.swift in Sources */,
+				1A2B3C6A1234567890ABCDEF /* SettingsView.swift in Sources */,
+				1A2B3C681234567890ABCDEF /* HistoryView.swift in Sources */,
+				1A2B3C761234567890ABCDEF /* UserDefaultsManager.swift in Sources */,
+				1A2B3C701234567890ABCDEF /* HistoryViewModel.swift in Sources */,
+				1A2B3C661234567890ABCDEF /* CoreDataManager.swift in Sources */,
+				1A2B3C6E1234567890ABCDEF /* HomeViewModel.swift in Sources */,
+				1A2B3C4F1234567890ABCDEF /* HomeView.swift in Sources */,
+				1A2B3C721234567890ABCDEF /* SettingsViewModel.swift in Sources */,
+				1A2B3C621234567890ABCDEF /* WaterEntry+CoreDataClass.swift in Sources */,
+				1A2B3C641234567890ABCDEF /* WaterEntry+CoreDataProperties.swift in Sources */,
+				1A2B3C4D1234567890ABCDEF /* AquaLogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A2B3C561234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A2B3C571234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A2B3C591234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AquaLog/AquaLog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AquaLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqualog.AquaLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A2B3C5A1234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AquaLog/AquaLog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AquaLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqualog.AquaLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2B3C441234567890ABCDEF /* Build configuration list for PBXProject "AquaLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B3C561234567890ABCDEF /* Debug */,
+				1A2B3C571234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2B3C581234567890ABCDEF /* Build configuration list for PBXNativeTarget "AquaLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B3C591234567890ABCDEF /* Debug */,
+				1A2B3C5A1234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A2B3C5E1234567890ABCDEF /* AquaLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A2B3C5F1234567890ABCDEF /* AquaLog.xcdatamodeld */,
+			);
+			currentVersion = 1A2B3C5F1234567890ABCDEF /* AquaLog.xcdatamodeld */;
+			path = AquaLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A2B3C411234567890ABCDEF /* Project object */;
+}
